@@ -13,6 +13,12 @@ pipeline {
       }
     }
 
+    stage('Build') {
+      steps {
+        echo 'test build'
+      }
+    }
+
   }
   post {
     always {
